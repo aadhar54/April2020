@@ -12,25 +12,23 @@ public:
     }
     
 };
-
 int main() {
-    
+    //static int a;
     Car C;
+    cout<<C.price; //garbage value
     //Initialisation
     C.price =500;
+    cout<<C.price; //
     C.model_no = 1001;
     C.name[0] = 'B';
     C.name[1] = 'M';
     C.name[2] = 'W';
     C.name[3] = '\0';
+ 
     C.start();
-    
-    
     //cout<<sizeof(C)<<endl; // C is an actual object 28 bytes
     //cout<<sizeof(Car)<<endl; // It will take 28 bytes
     //Car C[100]; //Array an objects
     
-    
-    return 0;
-    
+    return 0; 
 }
