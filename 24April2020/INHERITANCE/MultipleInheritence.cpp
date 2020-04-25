@@ -42,13 +42,14 @@ using namespace std;
 				cout<<"What is speed of Sheldon's brain ? "<<speedOfBrain<<endl;
 				cout<<"Does Sheldon lie ? "<<canLie<<endl;
 				cout<<"Does Sheldon has any friends ? "<<hasFriends<<endl;
-				speak();
+				//speak();
 			}
 	};
 	int main(){
 
 		Sheldon s ;
 		s.printDetails();
+		s.speak();
 
 		return 0;
 	}
